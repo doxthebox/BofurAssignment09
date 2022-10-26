@@ -8,9 +8,14 @@ Brief Description: We are modelling a shoe. This is the main
 Citations:
 Anything else that's relevant: 
 '''
-from ShoePackage.ShoeClass import *
-# instantiate at least one object
-shoe=Shoe("Size","Style","Brand")
-# Invoke the dunder and non dunder methods
-print(Shoe.__repr__(shoe))
-print(Shoe.__str__(shoe))
+# Example Class
+from ExamplePackage.ExampleClass import *
+# Call dunder methods
+example=Example(10)
+print(Example.__repr__(example))
+print(Example.__str__(example))
+# Call get & set
+Example.get(example)
+Example.set(example,20)
+# Call unique method of Class
+Example.whatisvariabletype(example)
