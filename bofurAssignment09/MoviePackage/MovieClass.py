@@ -33,7 +33,7 @@ class Movie():
             print("Failed to set new movie as "+str(newTitle))
             return False
     def titleOfTheYear(self, proposedTitle):
-        if self.proposedTitle == "Shrek":
+        if proposedTitle=="Shrek":
             print("Shrek is the title of the year")
         else:
             print(str(proposedTitle)+ " is not the title of the year, Shrek is") 

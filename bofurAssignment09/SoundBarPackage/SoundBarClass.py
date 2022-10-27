@@ -18,13 +18,13 @@ class SoundBar(): # New Sound Bar class
         '''
         return a string representation of the object
         '''
-        return "Volume = " + self.Volume
+        return "Volume = " + str(self.Volume)
     
     def __str__(self):
         '''
         return a 'pretty' string representation of the object
         '''
-        return "Volume = " + self.Volume
+        return "Volume = " + str(self.Volume)
     
     def get(self):
         return self.Volume

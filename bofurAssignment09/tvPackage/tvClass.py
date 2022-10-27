@@ -18,7 +18,7 @@ class TV(): # New TV class
         '''
         return a string representation of the object
         '''
-        return "Type = " + self.Type
+        return "Type = " + str(self.Type)
     
     def __str__(self):
         '''
