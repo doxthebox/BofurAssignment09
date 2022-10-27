@@ -8,18 +8,6 @@ Brief Description: We are modeling a shoe. This is the main
 Citations:
 Anything else that's relevant: 
 '''
-# Example Class
-from ExamplePackage.ExampleClass import *
-# Call dunder methods
-example=Example(10)
-print(Example.__repr__(example))
-print(Example.__str__(example))
-# Call get & set
-Example.get(example)
-Example.set(example,20)
-# Call unique method of Class
-Example.whatisvariabletype(example)
-
 # MovieClass
 from MoviePackage.MovieClass import Movie
 # Call dunder methods
